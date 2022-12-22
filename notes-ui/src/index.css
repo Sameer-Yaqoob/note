@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+
+/* custom css */
+.flex-bw{
+  @apply flex justify-between items-center;
+}
+
+.btn{
+  @apply cursor-pointer text-lg rounded-md px-5 py-3 font-semibold;
+}
+
+
+.form-text{
+  @apply px-3 py-2 w-full rounded-md;
+}
+
+@tailwind utilities;
